@@ -1,0 +1,43 @@
+﻿# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv_dashboard/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Generated outputs and temporary files
+outputs/
+*.log
+*.tmp
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local documentation backups
+README.backup.md
+requirements.backup.txt
+
+# Superseded dashboard versions
+/dashboard.py
+/dashboard_complete_dqn.py
+/dashboard_complete_dqn_fixed.py
+/dashboard_lstm.py
+/dashboard_lstm_risk_v2.py
+/dashboard_v1.py

@@ -1,0 +1,7 @@
+# models/
+# Trained LSTM model checkpoints are saved here by train_lstm.py.
+# This file is a placeholder to keep the directory tracked by version control.
+#
+# Files produced after training:
+#   best_lstm_model.pt   — PyTorch checkpoint (state dict + config)
+#   scaler_params.json   — Normalisation bounds (for downstream stages)

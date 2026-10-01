@@ -1,0 +1,16 @@
+{
+  "type": "fixed_domain_bounds",
+  "bounds": {
+    "vehicle_count": 500.0,
+    "average_speed": 120.0,
+    "queue_length": 1000.0,
+    "pedestrian_count": 300.0,
+    "emergency_vehicle_count": 10.0
+  },
+  "targets": [
+    "traffic_density",
+    "average_speed",
+    "queue_length"
+  ],
+  "note": "Targets already in [0,1] from FeatureExtractor.extract_targets()"
+}
